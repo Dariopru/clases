@@ -1,0 +1,164 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: none;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* Header del sitio */
+header{
+  background-color: #465875;
+ 
+  
+  
+}
+
+ header:hover{
+  color: #808080;
+ }
+
+
+.primero {
+  display: flex;
+  justify-content: space-between;
+}
+.segundo{
+  display: flex;
+  flex-direction: column;
+
+}
+nav {
+  display: flex;
+  position: relative;
+  left: 150rem;
+  bottom: 23rem;
+
+}
+nav a {
+  margin-right: 2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.imagen{
+  position: relative;
+  left: 10rem;
+  
+}
+h1 {
+  margin-top: 2rem; 
+  position: relative;
+  left: 17rem;
+  color: white;
+}
+
+
+/* segunda parte */
+main{
+  background-color: #DEE9F7;
+  display: flex;
+}
+
+.menu {
+  font-size: 2rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-right: 2rem;
+  margin-bottom: 132rem;
+  margin-top: 2rem;
+  border: 1px solid #6A6F75; 
+  padding: 1rem; 
+}
+
+.menu > *{
+  margin-bottom: 1rem;
+}
+
+.form{
+  font-size: 1.2rem;
+}
+
+
+.container{
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 20px;
+  width: 80%;
+}
+
+.titulo{
+  position: relative;
+  left: 7rem;
+  font-size: 1.5rem;
+}
+
+.note{
+  
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 3rem;
+  margin-top: 2rem;
+  margin-bottom: rem; 
+  
+}
+
+
+.note .precio {
+  color: #ff6347;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.note, a, span {
+  color: #000000;
+  font-size: 1.3rem;
+}
+
+
+/*tercera parte*/
+
+footer{
+  display: flex;
+  background-color: #333333;
+  
+}
+  
+.final{
+  content: "";
+  display: block;
+  width: 33.3rem;
+  margin-left: 25rem;
+  
+}
+
+.si, .no,.yes{
+  color: #ffffff;
+}
+
+.si{
+  font-size: 2rem;
+  position: relative;
+}
+
+.si::after{
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  bottom: -2px;
+  width: 25rem; 
+  height: 2px; 
+  background-color: #ffffff; 
+}
+
+.yes{
+  font-size: 1.3rem;
+  
+}
+
